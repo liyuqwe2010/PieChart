@@ -1,7 +1,7 @@
 # PieChart
 点击后带旋转动画的饼图
 ------
- ![image](https://github.com/liyuqwe2010/PieChart/raw/master/screenshots/example.jpg)
+![image](https://github.com/liyuqwe2010/PieChart/raw/master/example.jpg)
  
 ### 功能说明
 这是一个展示百分比以及其数字大小的饼图类控件<br />
