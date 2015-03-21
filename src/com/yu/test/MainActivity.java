@@ -1,13 +1,13 @@
-package com.yu.pietable;
+package com.yu.test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.dsa.R;
-import com.yu.utils.EntyExpenses;
-
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.yu.pietable.PieTable;
+import com.yu.utils.EntyExpenses;
 
 public class MainActivity extends Activity {
 
@@ -21,7 +21,9 @@ public class MainActivity extends Activity {
 		list.add(new EntyExpenses("ÎûÎû", 30));
 		list.add(new EntyExpenses("ºÇºÇ", 30));
 		list.add(new EntyExpenses("ºðºð", 40)); 
-		list.add(new EntyExpenses("²Á²Á", 40)); 
+		list.add(new EntyExpenses("ºðºð", 40)); 
+		list.add(new EntyExpenses("ºðºð", 40)); 
+		list.add(new EntyExpenses("ºðºð", 40)); 
 		
 		PieTable pieTable = (PieTable) findViewById(R.id.pieTable);
 		pieTable.initi(list);
