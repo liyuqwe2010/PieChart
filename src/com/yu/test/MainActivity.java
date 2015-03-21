@@ -21,9 +21,7 @@ public class MainActivity extends Activity {
 		list.add(new EntyExpenses("ÎûÎû", 30));
 		list.add(new EntyExpenses("ºÇºÇ", 30));
 		list.add(new EntyExpenses("ºğºğ", 40)); 
-		list.add(new EntyExpenses("ºğºğ", 40)); 
-		list.add(new EntyExpenses("ºğºğ", 40)); 
-		list.add(new EntyExpenses("ºğºğ", 40)); 
+		list.add(new EntyExpenses("²Á²Á", 40)); 
 		
 		PieTable pieTable = (PieTable) findViewById(R.id.pieTable);
 		pieTable.initi(list);
